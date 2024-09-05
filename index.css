@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2{
+    padding: 10px;
+    text-align: center;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, yellow, purple);
+}
+
+main{
+    max-width: 800px;
+    margin: 24px auto;
+    padding: 10px;
+}
+
+table{
+    width: 90%;
+    padding: 30px 0px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+thead{
+    font-size: 20px;
+}
+
+tbody{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 30px;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, palegoldenrod, lavender);
+    box-shadow: 5px 5px 10px darkviolet;
+}
+
+form{
+    padding: 10px;
+    text-align: center;
+}
+
+fieldset{
+    padding: 10px;
+    border: none;
+}
+
+label, input{
+    padding: 8px;
+    margin: 6px auto;
+    display: block;
+    text-align: start;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+}
+
+input{
+    border: 1px inset transparent;
+    border-bottom: 2px inset darkviolet;
+}
+
+input:hover{
+    border: 1px inset darkviolet;
+    border-bottom: 2px inset darkviolet;
+}
+
+input:focus{
+    outline: 1px inset darkviolet;
+    border-bottom: 2px inset darkviolet;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    align-items:normal;
+    border: purple;
+    border-radius: 9999px;
+    background-color: rgb(246, 246, 255);
+}
+
+button:hover{
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(246, 246, 255);
+    box-shadow: 2px 2px 5px purple;
+}
+
+button:focus{
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(219, 219, 255);
+}
